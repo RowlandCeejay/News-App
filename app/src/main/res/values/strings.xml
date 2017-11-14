@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">News-App</string>
+    <!-- Text to display in the list when there are no news -->
+    <string name="no_news">No news found.</string>
+
+    <!-- Settings Menu Item [CHAR LIMIT=NONE] -->
+    <string name="settings_menu_item">Settings</string>
+    <!-- Settings Activity Title [CHAR LIMIT=NONE] -->
+    <string name="settings_title">News Settings</string>
+
+    <!-- Text to display in the list when there is no internet connection found [CHAR LIMIT=NONE] -->
+    <string name="no_internet_connection">No internet connection.</string>
+
+    <!-- Strings For use date option List Preference -->
+    <string name="settings_use_date_label">Use Date Option</string>
+    <string name="settings_use_date_key" translatable="false">Use Date</string>
+    <string name="settings_use_date_default" translatable="false">published</string>
+    <string name="settings_use_date_newspaper_edition" translatable="false">newspaper-edition</string>
+    <string name="settings_use_date_last_modified" translatable="false">last-modified</string>
+
+    <!-- Strings For Section List Preference  -->
+    <string name="settings_search_section_label" >Search By Section</string>
+    <string name="settings_search_section_key" translatable="false">Search By</string>
+    <string name="settings_search_section_default" translatable="false">news</string>
+    <string name="settings_search_section_technology" translatable="false">technology</string>
+    <string name="settings_search_section_sport" translatable="false">sport</string>
+    <string name="settings_search_section_world" translatable="false">world</string>
+    <string name="settings_search_section_lifeandstyle" translatable="false">lifeandstyle</string>
+    <string name="settings_search_section_fashion" translatable="false">fashion</string>
+    <string name="settings_search_section_politics" translatable="false">politics</string>
+    <string name="settings_search_section_society" translatable="false">news</string>
+
+    <!-- Strings For Order By List Preference  -->
+    <string name="settings_orderBy_label">Search By Order </string>
+    <string name="settings_orderBy_key" translatable="false">Order by</string>
+    <string name="settings_orderBy_newest_default" translatable="false">newest</string>
+    <string name="settings_orderBy_relevance" translatable="false">relevance</string>
+    <string name="settings_orderBy_oldest" translatable="false">oldest</string>
+
+    <!-- Strings For List item  -->
+    <string name="textView_newsType"> article </string>
+    <string name="textView_section_id">Technology</string>
+    <string name="textView_web_title">Long placeholder text that should wrap to more than 2 lines of text</string>
+    <string name="textView_date"> Mar 6, 2010 </string>
+    <string name="textView_time">3:00 PM</string>
+
+</resources>

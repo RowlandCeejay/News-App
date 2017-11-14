@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    android:background="@drawable/guardian"
+    android:padding="@dimen/padding_all">
+
+    <LinearLayout
+        android:id="@+id/web_layout"
+        style="@style/Web_layout">
+
+        <TextView
+            android:id="@+id/news_type"
+            style="@style/textView_type"
+            tools:text="@string/textView_newsType" />
+
+        <TextView
+            android:id="@+id/web_title"
+            style="@style/webTitle"
+            tools:text="@string/textView_web_title" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/section_id"
+        style="@style/sectionId"
+        tools:text="@string/textView_section_id"
+        android:layout_below="@+id/web_layout" />
+
+    <LinearLayout
+        style="@style/Date_LinearLayout"
+        android:layout_below="@+id/web_layout">
+
+        <TextView
+            android:id="@+id/date"
+            style="@style/Date_textView"
+            tools:text="@string/textView_date" />
+
+        <TextView
+            android:id="@+id/time"
+            style="@style/Time_textView"
+            tools:text="@string/textView_time" />
+
+    </LinearLayout>
+
+</RelativeLayout>

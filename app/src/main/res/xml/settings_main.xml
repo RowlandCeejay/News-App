@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings_title">
+
+    <ListPreference
+        android:defaultValue="@string/settings_use_date_default"
+        android:entries="@array/settings_use_date"
+        android:entryValues="@array/settings_use_date"
+        android:key="@string/settings_use_date_key"
+        android:title="@string/settings_use_date_label" />
+
+    <ListPreference
+        android:defaultValue="@string/settings_search_section_default"
+        android:entries="@array/settings_section"
+        android:entryValues="@array/settings_section"
+        android:key="@string/settings_search_section_key"
+        android:title="@string/settings_search_section_label" />
+
+    <ListPreference
+        android:defaultValue="@string/settings_orderBy_newest_default"
+        android:entries="@array/settings_order_by"
+        android:entryValues="@array/settings_order_by"
+        android:key="@string/settings_orderBy_key"
+        android:title="@string/settings_orderBy_label" />
+
+</PreferenceScreen>
+
+
+

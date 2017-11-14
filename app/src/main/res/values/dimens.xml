@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="padding_all">5dp</dimen>
+    <dimen name="margin_list">5dp</dimen>
+    <dimen name="list_item_height">170dp</dimen>
+    <dimen name="bigger_text">18sp</dimen>
+    <dimen name="smaller_text">16sp</dimen>
+    <dimen name="divider_height">1dp</dimen>
+
+
+</resources>

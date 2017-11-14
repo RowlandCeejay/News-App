@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settings_use_date">
+        <item>@string/settings_use_date_default</item>
+        <item>@string/settings_use_date_newspaper_edition</item>
+        <item>@string/settings_use_date_last_modified</item>
+
+    </string-array>
+
+    <string-array name="settings_section">
+        <item>@string/settings_search_section_default</item>
+        <item>@string/settings_search_section_technology</item>
+        <item>@string/settings_search_section_sport</item>
+        <item>@string/settings_search_section_world</item>
+        <item>@string/settings_search_section_lifeandstyle</item>
+        <item>@string/settings_search_section_fashion</item>
+        <item>@string/settings_search_section_politics</item>
+        <item>@string/settings_search_section_society</item>
+
+    </string-array>
+
+    <string-array name="settings_order_by">
+        <item>@string/settings_orderBy_newest_default</item>
+        <item>@string/settings_orderBy_relevance</item>
+        <item>@string/settings_orderBy_oldest</item>
+
+    </string-array>
+</resources>
